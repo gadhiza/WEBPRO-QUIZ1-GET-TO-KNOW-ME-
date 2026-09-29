@@ -17,11 +17,9 @@ body.hometown-page {
     position: relative;
     width: 100%;
     height: 90vh;
-    /* Ganti URL gambar di bawah dengan foto bangunan setengah bagianmu (misal: bangunan-surabaya.jpg) */
     background: url('foto main surabaya.jpg') no-repeat left center / 50% 100%, #3b0d14;
 }
 
-/* Jika ingin sisi kanan otomatis marun solid dan kiri foto */
 .hero-section::before {
     content: '';
     position: absolute;
@@ -111,9 +109,8 @@ body.hometown-page {
     left: 0;
     width: 100%;
     height: 100%;
-    /* Ganti URL gambar dengan foto latar belakang bangunan transparan */
     background: url('foto hometown deskripsi.jpg') no-repeat center center / cover;
-    opacity: 0.15; /* Transparansi dibuat rendah sesuai gambar referensi */
+    opacity: 0.15; 
     z-index: 1;
 }
 

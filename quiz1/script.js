@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    // 1. Efek Scroll Fade-In untuk elemen (Berlaku untuk Profile & Hometown)
+    // 1. Efek Scroll Fade-In untuk elemen 
     const observerOptions = {
         threshold: 0.1
     };

@@ -1,6 +1,6 @@
 /* Pengaturan Dasar Halaman Profile (Background Krem) */
 body.profile-page {
-    background-color: #f7f3ed !important; /* Warna krem */
+    background-color: #f7f3ed !important; 
     color: #2b080d;
     min-height: 100vh;
     display: flex;

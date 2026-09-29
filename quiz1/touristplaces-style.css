@@ -1,4 +1,4 @@
-/* Pengaturan Dasar Halaman Tourist Places (Background Maroon, Teks Krem) */
+/* Pengaturan Dasar Halaman Tourist Places */
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +48,6 @@ body.tourist-page {
 .tourist-hero {
     width: 100%;
     height: 70vh;
-    /* Ganti URL di bawah dengan path gambar latar belakang bangunan kolonialmu */
     background-image: url('balai kota.png');
     background-size: cover;
     background-position: center;
@@ -66,7 +65,7 @@ body.tourist-page {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(59, 13, 20, 0.75); /* Sesuaikan tingkat transparansi marun di sini */
+    background-color: rgba(59, 13, 20, 0.75); 
     display: flex;
     align-items: center;
     justify-content: center;
